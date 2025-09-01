@@ -41,7 +41,12 @@ public class Main {
         System.out.println("EJECUCION EJERCICIO 2:");
         System.out.println("");
         
+        Mascota m = new Mascota("Lolo","perro", 5);
+        m.mostrarInfo();
+        System.out.println("");
         
+        m.cumplirAnios(3);
         
+        m.mostrarInfo();
     }
 }
