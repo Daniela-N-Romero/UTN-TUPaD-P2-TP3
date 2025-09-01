@@ -86,5 +86,20 @@ public class Main {
         g2.ponerHuevo();
         g2.ponerHuevo();
         g2.mostrarEstado();
+        
+       
+        System.out.println("");
+        System.out.println("--------------------------------------");
+        System.out.println("EJECUCION EJERCICIO 5:");
+        System.out.println("");
+        
+        NaveEspacial nave = new NaveEspacial("Nave1", 50);
+        nave.despegar();
+        nave.mostrarEstado();
+        nave.avanzar(60);
+        nave.recargarCombustible(20);
+        nave.avanzar(60);
+        nave.mostrarEstado();
     }
+    
 }
