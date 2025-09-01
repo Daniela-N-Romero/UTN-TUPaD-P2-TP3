@@ -48,5 +48,43 @@ public class Main {
         m.cumplirAnios(3);
         
         m.mostrarInfo();
+        
+        System.out.println("");
+        System.out.println("--------------------------------------");
+        System.out.println("EJECUCION EJERCICIO 3:");
+        System.out.println("");
+        
+        Libro l = new Libro("Harry Potter y la piedra filosofal", "J. K. Rowling", 1985);
+        System.out.println(l.getTitulo());
+        System.out.println(l.getAnioPublicacion());
+        System.out.println(l.getAutor());
+        System.out.println("");
+        l.setAnioPublicacion(2028);
+        l.setAnioPublicacion(1997);
+        System.out.println(l.getTitulo());
+        System.out.println(l.getAnioPublicacion());
+        System.out.println(l.getAutor());
+        
+        System.out.println("");
+        System.out.println("--------------------------------------");
+        System.out.println("EJECUCION EJERCICIO 4:");
+        System.out.println("");
+        
+        Gallina g1 = new Gallina(1,2,300);
+        Gallina g2 = new Gallina(2,3,400);
+        
+        g1.mostrarEstado();
+        g1.envejecer();
+        g1.envejecer();
+        g1.ponerHuevo();
+        g1.ponerHuevo();
+        g1.mostrarEstado();
+        System.out.println("----");
+        g2.mostrarEstado();
+        g2.envejecer();
+        g2.ponerHuevo();
+        g2.ponerHuevo();
+        g2.ponerHuevo();
+        g2.mostrarEstado();
     }
 }
